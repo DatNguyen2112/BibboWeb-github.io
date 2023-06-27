@@ -60,6 +60,30 @@ export default function ListBooks() {
         img: "https://file.mentor.vn/files/books/file-1639123935302.jpg",
         title: "Người giàu có nhất thành...",
         author: "Nguyễn Hiền Lê",
+      },
+       {
+        id: 11,
+        img: "https://file.mentor.vn/files/books/file-1639123935302.jpg",
+        title: "Người giàu có nhất thành...",
+        author: "Nguyễn Hiền Lê",
+      },
+      {
+        id: 12,
+        img: "https://file.mentor.vn/files/books/file-1639123935302.jpg",
+        title: "Người giàu có nhất thành...",
+        author: "Nguyễn Hiền Lê",
+      },
+      {
+        id: 13,
+        img: "https://file.mentor.vn/files/books/file-1639123935302.jpg",
+        title: "Người giàu có nhất thành...",
+        author: "Nguyễn Hiền Lê",
+      },
+      {
+        id: 14,
+        img: "https://file.mentor.vn/files/books/file-1639123935302.jpg",
+        title: "Người giàu có nhất thành...",
+        author: "Nguyễn Hiền Lê",
       }
     ];
 

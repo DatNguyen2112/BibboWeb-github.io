@@ -1,7 +1,7 @@
 import SliderBook from "../slider/slider";
 import AllSearch from "../PageAllContent/Allsearch";
-import RecentlyBook from "../PageAllContent/RecentlyBook";
 import Carousel from "../PageAllContent/Allslider";
+import RecentlyBook from "../PageAllContent/Recentlybook";
 
 function PageAllContent() {
   return (
@@ -10,9 +10,9 @@ function PageAllContent() {
         <AllSearch />
       </div>
 
-      <div className="recently-book">
-        <RecentlyBook />
-      </div>
+      
+      <RecentlyBook />
+      
 
       <div className="book-slider">
         <div className="slick-slider">

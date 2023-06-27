@@ -3,6 +3,7 @@ import { Homeicon } from '../component/homeicon';
 import { Listicon } from '../component/listicon';
 import { PersonalIcon } from '../component/personalicon';
 import { SearchIcon } from '../component/search-icon';
+import { Link } from 'react-router-dom'
 function MenuList() {
     const [toogle, setToogle] = useState(1);
 
@@ -12,22 +13,22 @@ function MenuList() {
 
     return (
       <div>
-        <div
+        <Link to='/'
           onClick={() => handelClick(1)}
           className={
             toogle === 1 ? "menu-lists-item activeTabs" : "menu-lists-item"
           }
         >
           <div className="homes-icon">
-            <Homeicon />
+            <Homeicon />  
           </div>
 
           <div className="homes-title">
-            <span>Home</span>
+            <Link className='links' to='/'>Home</Link>
           </div>
-        </div>
+        </Link>
 
-        <div
+        <Link to='/Search'
           onClick={() => handelClick(2)}
           className={
             toogle === 2 ? "menu-lists-item activeTabs" : "menu-lists-item"
@@ -38,11 +39,11 @@ function MenuList() {
           </div>
 
           <div className="homes-title">
-            <span>Tìm kiếm</span>
+            <Link className='links' to = '/Search'>Tìm kiếm</Link>
           </div>
-        </div>
+        </Link>
 
-        <div
+        <Link to='/Category'
           onClick={() => handelClick(3)}
           className={
             toogle === 3 ? "menu-lists-item activeTabs" : "menu-lists-item"
@@ -53,11 +54,11 @@ function MenuList() {
           </div>
 
           <div className="homes-title">
-            <span>Danh mục</span>
+            <Link className='links' to="/Category">Danh mục</Link>
           </div>
-        </div>
+        </Link>
 
-        <div
+        <Link to='/Profile'
           onClick={() => handelClick(4)}
           className={
             toogle === 4 ? "menu-lists-item activeTabs" : "menu-lists-item"
@@ -68,9 +69,9 @@ function MenuList() {
           </div>
 
           <div className="homes-title">
-            <span>Cá nhân</span>
+            <Link className='links' to = "/Profile">Cá nhân</Link>
           </div>
-        </div>
+        </Link>
       </div>
     );
 }

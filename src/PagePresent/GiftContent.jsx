@@ -4,13 +4,11 @@ function GiftContent() {
   return (
     <div className="gift-content">
       <div className="gift-code">
-        <div className="gift-img">
-          <img
-            className="gift-photos"
-            src="https://biboo.tecinus.vn/static/media/gift-img.adbc671a.png"
-            alt=""
-          />
-        </div>
+        <img
+          className="gift-photos"
+          src="https://biboo.tecinus.vn/static/media/gift-img.adbc671a.png"
+          alt=""
+        />
 
         <div className="presents">
           <div className="gift-contents">

@@ -2,8 +2,8 @@
 function StarIcon() {
     return (
       <svg
-        width="18"
-        height="18"
+        width="20"
+        height="19"
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +16,7 @@ function StarIcon() {
         />
         <mask
           id="mask0"
-          maskType="alpha"
+          masktype="alpha"
           maskUnits="userSpaceOnUse"
           x="1"
           y="2"

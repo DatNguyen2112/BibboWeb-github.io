@@ -1,5 +1,6 @@
 import LibraryProgress from "../Bookunlock/LibraryProgress";
 import LibrarySearch from "../Bookunlock/LibrarySearch";
+import ListBooks from "../PagePresent/ListBook";
 
 function BookUnlock() {
   return (
@@ -7,9 +8,7 @@ function BookUnlock() {
       <LibrarySearch />
       <LibraryProgress />
       
-      <div className="empty-book">
-        <h2 className="empty-para">Chưa có cuốn sách nào</h2>
-      </div>
+      <ListBooks />
     </div>
   );
 }

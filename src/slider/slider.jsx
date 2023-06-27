@@ -2,6 +2,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+
 function SliderBook() {
   const settings = {
     className: "center",
@@ -11,9 +12,11 @@ function SliderBook() {
     adaptiveHeight: true,
     centerPadding: "60px",
     slidesToShow: 1,
+    slidestoScroll: 1,
     speed: 500,
     dots: true,
-    arrows: true,
+
+    
   };
 
   const SliderItems = [
@@ -27,7 +30,7 @@ function SliderBook() {
     },
     {
       id: 3,
-      img: "https://file.mentor.vn//files/categories/file-1634006052521.jpg",
+      img: "https://file.mentor.vn//files/categories/file-1634006052521.jpg", 
     },
   ];
 
